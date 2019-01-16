@@ -1,0 +1,7 @@
+Package: rPorta
+Version: 0.1-93
+Depends: R (>= 2.6.0)
+Imports: methods
+License: GPL (>= 2)
+MD5sum: 535f386c276187f658c2d5d67d5e039f
+NeedsCompilation: yes
