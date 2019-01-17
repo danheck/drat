@@ -1,3 +1,14 @@
+Package: metaBMA
+Version: 0.5.0
+Depends: R (>= 3.4.0), Rcpp (>= 0.12.0), methods
+Imports: mvtnorm, logspline, coda, LaplacesDemon, rstan (>= 2.18.1), rstantools, bridgesampling
+LinkingTo: StanHeaders (>= 2.18.0), rstan (>= 2.18.1), BH (>= 1.66.0), Rcpp (>= 0.12.0), RcppEigen (>=
+           0.3.3.3.0)
+Suggests: testthat, knitr, covr
+License: GPL-3
+MD5sum: 9f7ae5ef031445be3b6f5ce0b84a893e
+NeedsCompilation: yes
+
 Package: rPorta
 Version: 0.1-93
 Depends: R (>= 2.6.0)
