@@ -9,6 +9,16 @@ License: GPL-3
 MD5sum: 9f7ae5ef031445be3b6f5ce0b84a893e
 NeedsCompilation: yes
 
+Package: multinomineq
+Version: 0.2.0
+Depends: R (>= 3.5.0)
+Imports: Rcpp (>= 0.12.11), parallel, Rglpk, quadprog, coda
+LinkingTo: Rcpp, RcppArmadillo, RcppProgress
+Suggests: rPorta, knitr, testthat
+License: GPL-2 | GPL-3
+MD5sum: bf8b360a1cb5507e0dd2ab3d4275b31c
+NeedsCompilation: yes
+
 Package: rPorta
 Version: 0.1-93
 Depends: R (>= 2.6.0)
