@@ -8,6 +8,15 @@ Suggests: testthat, knitr, covr
 License: GPL-3
 Archs: i386, x64
 
+Package: multinomineq
+Version: 0.2.0
+Depends: R (>= 3.5.0)
+Imports: Rcpp (>= 0.12.11), parallel, Rglpk, quadprog, coda
+LinkingTo: Rcpp, RcppArmadillo, RcppProgress
+Suggests: rPorta, knitr, testthat
+License: GPL-2 | GPL-3
+Archs: i386, x64
+
 Package: rPorta
 Version: 0.1-93
 Depends: R (>= 2.6.0)
