@@ -2,8 +2,7 @@ Package: metaBMA
 Version: 0.5.0
 Depends: R (>= 3.4.0), Rcpp (>= 0.12.0), methods
 Imports: mvtnorm, logspline, coda, LaplacesDemon, rstan (>= 2.18.1), rstantools, bridgesampling
-LinkingTo: StanHeaders (>= 2.18.0), rstan (>= 2.18.1), BH (>= 1.66.0), Rcpp (>= 0.12.0), RcppEigen (>=
-           0.3.3.3.0)
+LinkingTo: StanHeaders (>= 2.18.0), rstan (>= 2.18.1), BH (>= 1.66.0), Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0)
 Suggests: testthat, knitr, covr
 License: GPL-3
 Archs: i386, x64
@@ -11,10 +10,10 @@ Archs: i386, x64
 Package: multinomineq
 Version: 0.2.0
 Depends: R (>= 3.5.0)
-Imports: Rcpp (>= 0.12.11), parallel, Rglpk, quadprog, coda
+Imports: Rcpp (>= 0.12.11), parallel, Rglpk, quadprog, coda, RcppXPtrUtils
 LinkingTo: Rcpp, RcppArmadillo, RcppProgress
-Suggests: rPorta, knitr, testthat
-License: GPL-2 | GPL-3
+Suggests: rPorta, knitr, testthat, covr
+License: GPL-3
 Archs: i386, x64
 
 Package: rPorta
@@ -22,4 +21,13 @@ Version: 0.1-93
 Depends: R (>= 2.6.0)
 Imports: methods
 License: GPL (>= 2)
+Archs: i386, x64
+
+Package: TreeBUGS
+Version: 1.4.2
+Depends: R (>= 3.0.0)
+Imports: Rcpp (>= 0.12.6), runjags, stats, graphics, utils, grDevices, coda, parallel, rjags, MASS, hypergeo, logspline
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: knitr, testthat, R.rsp
+License: GPL-3
 Archs: i386, x64

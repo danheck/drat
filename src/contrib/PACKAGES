@@ -2,8 +2,7 @@ Package: metaBMA
 Version: 0.5.0
 Depends: R (>= 3.4.0), Rcpp (>= 0.12.0), methods
 Imports: mvtnorm, logspline, coda, LaplacesDemon, rstan (>= 2.18.1), rstantools, bridgesampling
-LinkingTo: StanHeaders (>= 2.18.0), rstan (>= 2.18.1), BH (>= 1.66.0), Rcpp (>= 0.12.0), RcppEigen (>=
-           0.3.3.3.0)
+LinkingTo: StanHeaders (>= 2.18.0), rstan (>= 2.18.1), BH (>= 1.66.0), Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0)
 Suggests: testthat, knitr, covr
 License: GPL-3
 MD5sum: 9f7ae5ef031445be3b6f5ce0b84a893e
@@ -12,11 +11,11 @@ NeedsCompilation: yes
 Package: multinomineq
 Version: 0.2.0
 Depends: R (>= 3.5.0)
-Imports: Rcpp (>= 0.12.11), parallel, Rglpk, quadprog, coda
+Imports: Rcpp (>= 0.12.11), parallel, Rglpk, quadprog, coda, RcppXPtrUtils
 LinkingTo: Rcpp, RcppArmadillo, RcppProgress
-Suggests: rPorta, knitr, testthat
-License: GPL-2 | GPL-3
-MD5sum: bf8b360a1cb5507e0dd2ab3d4275b31c
+Suggests: rPorta, knitr, testthat, covr
+License: GPL-3
+MD5sum: 8b6857fcea4acc0137ac47f4d3eafc36
 NeedsCompilation: yes
 
 Package: rPorta
@@ -25,4 +24,14 @@ Depends: R (>= 2.6.0)
 Imports: methods
 License: GPL (>= 2)
 MD5sum: 535f386c276187f658c2d5d67d5e039f
+NeedsCompilation: yes
+
+Package: TreeBUGS
+Version: 1.4.2
+Depends: R (>= 3.0.0)
+Imports: Rcpp (>= 0.12.6), runjags, stats, graphics, utils, grDevices, coda, parallel, rjags, MASS, hypergeo, logspline
+LinkingTo: Rcpp, RcppArmadillo
+Suggests: knitr, testthat, R.rsp
+License: GPL-3
+MD5sum: faa5661b159e3611262cb02875c60639
 NeedsCompilation: yes
