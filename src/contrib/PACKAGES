@@ -1,11 +1,12 @@
 Package: metaBMA
 Version: 0.6.0
-Depends: R (>= 3.4.0), Rcpp (>= 1.0.1), methods
-Imports: mvtnorm, logspline, coda, LaplacesDemon, rstan (>= 2.18.2), rstantools (>= 1.5.1), bridgesampling
-LinkingTo: BH (>= 1.69.0-1), Rcpp (>= 1.0.0), RcppEigen (>= 0.3.3.5.0), rstan (>= 2.18.0), StanHeaders (>= 2.18.0)
+Depends: R (>= 3.4.0), Rcpp (>= 1.0.0), methods
+Imports: mvtnorm, logspline, coda, LaplacesDemon, rstan (>= 2.18.1), rstantools (>= 1.5.1), bridgesampling
+LinkingTo: BH (>= 1.69.0-1), Rcpp (>= 1.0.0), RcppEigen (>= 0.3.3.5.0), rstan (>= 2.18.1), StanHeaders (>=
+            2.18.0)
 Suggests: testthat, knitr
 License: GPL-3
-MD5sum: 90732be50b527f716675e57c898ccc33
+MD5sum: e18b5730f78961b3e8c731dcb89bd75c
 NeedsCompilation: yes
 
 Package: multinomineq
@@ -30,7 +31,7 @@ Package: TreeBUGS
 Version: 1.4.2
 Depends: R (>= 3.0.0)
 Imports: Rcpp (>= 0.12.6), runjags, stats, graphics, utils, grDevices, coda, parallel, rjags, MASS, hypergeo,
-             logspline
+            logspline
 LinkingTo: Rcpp, RcppArmadillo
 Suggests: knitr, testthat, R.rsp
 License: GPL-3
